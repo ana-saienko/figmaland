@@ -221,6 +221,7 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  background-color: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
 }
 
 .hero__container {
