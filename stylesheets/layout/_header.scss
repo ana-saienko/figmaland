@@ -2,35 +2,66 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-// Хедер, который ездит вместе со страницей: 
+// My header styles
+// -----------------------------------------------------------------------------
 
 .header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 10;
-
-	background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header__fluid {
+  max-width: 1350px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.header {
-	&__container {
-		max-width: 1200px;
-		margin: 0 auto;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding: 0 30px;
-		min-height: 70px;
-	}
-
-	&__logo {
-		border-radius: 50%;
-		background-color: #fff;
-		position: relative;
-		z-index: 5;
-		width: 40px;
-		height: 40px;
-	}
+.header__logo {
+  flex-grow: 1;
 }
+
+.header__container {
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item {
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 45px;
+  }
+}
+
+.header__link {
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: $white;
+}
+
+.header__subs-input {
+  flex-basis: 273px;
+  margin-right: 12px;
+}
+
+// -----------------------------------------------------------------------------
+// My header styles
+
+// Хедер, который ездит вместе со страницей:
+// -----------------------------------------------------------------------------
+
+// .header {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	z-index: 10;
+// }

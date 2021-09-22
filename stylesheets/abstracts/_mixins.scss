@@ -2,4 +2,25 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
+@mixin btn-standard {
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  border-radius: 35px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
 
+@mixin placeholder-input {
+	font-family: inherit;
+	color: $bg-text;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.1px;
+}

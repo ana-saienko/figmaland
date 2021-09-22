@@ -1,0 +1,19 @@
+.subscribe {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__input {
+  @include placeholder-input;
+  padding: 19px 39px;
+  background: #efefef;
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+
+  &::placeholder {
+    @include placeholder-input;
+  }
+}
+
+.subscribe__btn {
+}

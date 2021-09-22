@@ -5,6 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="format-detection" content="telephone=no" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="stylesheets/main.css" />
 
     <!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -13,13 +20,50 @@
   </head>
   <body>
     <div class="wrapper">
-
       <header class="header">
-
+        <div class="header__fluid header__container">
+          <div class="header__logo logo">
+            <img src="images/main-logo.png" alt="">
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link">Home</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Product</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Pricing</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">About</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__subs subscribe">
+            <input type="email" class="header__subs-input subscribe__input" placeholder="Your Email">
+            <button class="subscribe__btn button button_white">Subsribe</button>
+          </div>
+        </div>
       </header>
 
       <main class="page">
-
+        <section class="hero">
+          <div class="hero__container container">
+            <div class="hero__image"></div>
+            <div class="hero__content">
+              <h1 class="hero__title">We focus on 
+                ergonomics </h1>
+              <p class="hero__subtitle">Most calendars are designed for teams. 
+                Slate is designed for freelancers</p>
+              <a href="#" class="button hero__button">Try For Free</a>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

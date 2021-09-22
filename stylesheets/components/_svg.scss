@@ -1,0 +1,33 @@
+.icon { 
+	width: 50px; 
+	height: 50px;
+	margin: .5em;
+ }
+ 
+ .svg__icon {
+	fill: green;
+ }
+
+/* SVG References 
+
+<svg class="icon svg__icon">
+  <use xlink:href="#location"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#mail"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#phone"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#twitter"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#02"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#01"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#03"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#facebook"></use>
+</svg><svg class="icon svg__icon">
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+*/

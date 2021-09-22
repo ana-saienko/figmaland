@@ -25,6 +25,9 @@
 // 5. Components
 @import
   'components/button',
+  'components/subscribe',
+  'components/svg',
+  'components/logo',
   'components/header-burger';
 
 // 6. Page-specific styles
@@ -32,5 +35,3 @@
   'pages/home';
 
 // 7. Themes
-@import
-  'themes/default';

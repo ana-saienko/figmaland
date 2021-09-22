@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.button {
+  @include btn-standard;
+  padding: 18px 38px;
+
+  &_white {
+    color: $accent;
+    background-color: $white;
+
+    &:hover {
+      color: $white;
+      background-color: $accent;
+    }
+  }
+}
