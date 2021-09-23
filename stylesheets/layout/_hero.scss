@@ -6,7 +6,13 @@
   background-position: center;
   min-height: 100vh;
 
-  background-color: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);;
+  background-color: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+
+  @media (max-width: $md4+px) {
+    padding-top: 202px;
+    background-image: url(../../images/mobile-bg.png);
+    background-position: left;
+  }
 }
 
 // CONTENT
@@ -15,25 +21,54 @@
   display: flex;
   justify-content: end;
   position: relative;
+
+  @media (max-width: $md2+px) {
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .hero__image {
-	
-	&:before {
-		position: absolute;
-		left: -15%;
-		top: -60%;
-		content: "";
-		background-image: url(../../images/hero-bg.png);
-		background-repeat: no-repeat;
-		background-size: contain;
-		width: 960px;
-		height: 825px;
-	}
+  &:before {
+    position: absolute;
+    left: -15%;
+    top: -18%;
+    content: "";
+    background-image: url(../../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 9.86057px 19.7211px rgba(0, 0, 0, 0.16),
+      0px 9.86057px 131.474px rgba(0, 0, 0, 0.23);
+    width: 760px;
+    height: 520px;
+
+    @media (max-width: $md2+px) {
+      left: 0%;
+      top: 75%;
+      background-size: cover;
+    }
+
+    @media (max-width:$md3+px){
+      width: 475px;
+      height: 310px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 115%;
+    }
+
+    @media (max-width: $md4+px) {
+      width: 380px;
+      height: 212px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 115%;
+    }
+  }
 }
 
 .hero__content {
   max-width: 312px;
+  position: relative;
 }
 
 .hero__title {
@@ -43,6 +78,12 @@
   line-height: 65px;
   letter-spacing: 0.2px;
   color: $white;
+
+  @media (max-width: $md4+px) {
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: 400;
+  }
 }
 
 .hero__subtitle {
@@ -61,5 +102,12 @@
   &:hover {
     color: $white;
     background-color: $secondary;
+  }
+
+  @media (max-width: $md4+px) {
+    position: absolute;
+    bottom: -210%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

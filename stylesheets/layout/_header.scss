@@ -20,6 +20,11 @@
 
 .header__logo {
   flex-grow: 1;
+
+  @media (max-width:$md3+px){
+     flex-grow: 0; 
+     margin-bottom: 25px; 
+  }
 }
 
 .header__container {
@@ -27,6 +32,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (max-width:$md3+px){
+     justify-content: center; 
+  }
+}
+
+// -----------------------------------------------------------------------------
+
+.header__nav {
+  @media (max-width:$md3+px){
+     margin-bottom: 25px; 
+  }
 }
 
 .header__list {

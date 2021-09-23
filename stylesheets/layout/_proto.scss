@@ -1,0 +1,38 @@
+.proto {
+  padding: 110px 0 80px;
+
+  @media (max-width:$md3+px){
+		display: none; 
+  }
+}
+
+.proto__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.proto__sec-header {
+  margin-bottom: 17px;
+}
+.proto__description {
+  margin-bottom: 70px;
+}
+.proto__button {
+	margin-bottom: 60px;
+  color: $white;
+  background-color: $secondary;
+
+  &:hover {
+    color: $secondary;
+    background-color: $white;
+  }
+}
+
+.proto__image {
+	margin: 0 auto;
+	max-width: 1035px;
+	img {
+		object-fit: contain;
+		max-width: 100%;
+	}
+}

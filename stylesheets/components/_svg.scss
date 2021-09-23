@@ -1,33 +1,33 @@
-.icon { 
-	width: 50px; 
-	height: 50px;
-	margin: .5em;
- }
+// .icon { 
+// 	width: 50px; 
+// 	height: 50px;
+// 	margin: .5em;
+//  }
  
  .svg__icon {
-	fill: green;
+	fill: $white;
  }
 
 /* SVG References 
 
 <svg class="icon svg__icon">
-  <use xlink:href="#location"></use>
+  <use xlink:href="sprite.svg#location"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#mail"></use>
+  <use xlink:href="sprite.svg#mail"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#phone"></use>
+  <use xlink:href="sprite.svg#phone"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#twitter"></use>
+  <use xlink:href="sprite.svg#twitter"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#02"></use>
+  <use xlink:href="sprite.svg#02"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#01"></use>
+  <use xlink:href="sprite.svg#01"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#03"></use>
+  <use xlink:href="sprite.svg#03"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#facebook"></use>
+  <use xlink:href="sprite.svg#facebook"></use>
 </svg><svg class="icon svg__icon">
-  <use xlink:href="#linkedin"></use>
+  <use xlink:href="sprite.svg#linkedin"></use>
 </svg>
 
 */

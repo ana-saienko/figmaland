@@ -9,3 +9,34 @@ body {
   line-height: 27px;
   color: $text-black;
 }
+
+.subheader {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: $title-black;
+}
+
+.sec-header {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $title-black;
+  max-width: 318px;
+  margin: 0 auto;
+}
+
+.description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $text-black;
+  max-width: 318px;
+  margin: 0 auto;
+}

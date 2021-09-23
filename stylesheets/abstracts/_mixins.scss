@@ -17,6 +17,7 @@
 }
 
 @mixin placeholder-input {
+  outline: none;
 	font-family: inherit;
 	color: $bg-text;
 	font-weight: 400;
