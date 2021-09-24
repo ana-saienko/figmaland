@@ -22,13 +22,20 @@
   'layout/hero',
   'layout/features',
   'layout/proto',
+  'layout/subs',
+  'layout/partners',
+  'layout/testimonials',
+  'layout/pricing',
+  'layout/contact',
   'layout/footer';
 
 // 5. Components
 @import
   'components/button',
+  'components/connect',
   'components/subscribe',
   'components/svg',
+  'components/form-subs',
   'components/logo',
   'components/header-burger';
 

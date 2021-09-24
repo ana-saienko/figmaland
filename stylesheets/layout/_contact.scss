@@ -1,0 +1,39 @@
+.contact {
+	padding: 95px 0 85px;
+	background-color: $title-black;
+}
+
+// TEXT
+// ------------------------------------------------------------------------
+
+.contact__sec-header {
+	color: $white;
+	margin-bottom: 17px;
+}
+
+.contact__descr {
+	color: $white;
+	margin-bottom: 50px;
+}
+
+// TEXT
+// ------------------------------------------------------------------------
+
+
+// BOX
+// ------------------------------------------------------------------------
+
+.contact__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact__form {
+	flex-basis: 400px;
+}
+
+.contact__connect {
+	flex-basis: 265px;
+	margin-left: 65px;
+}

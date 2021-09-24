@@ -1,0 +1,120 @@
+.pricing {
+	padding: 110px 0 100px;
+}
+
+// TEXT
+// -------------------------------------
+
+.pricing__sec-header {
+  margin-bottom: 17px;
+}
+.pricing__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: $title-black;
+  transition: all .3s ease-in-out;
+}
+
+.pricing__descr {
+  margin-bottom: 80px;
+}
+
+.pricing__description {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: $text-black;
+  transition: all .3s ease-in-out;
+}
+
+.pricing__amount {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  color: $title-black;
+  margin-right: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.pricing__currency {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: $title-black;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: all .3s ease-in-out;
+}
+
+.pricing__data {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: $text-black;
+
+  transition: all .3s ease-in-out;
+}
+
+.pricing__button {
+  padding: 18px 88px !important;
+  color: $white;
+  background-color: $secondary;
+}
+
+// BOX
+// -------------------------------------
+
+.pricing__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+
+  @media (max-width:$md1+px){
+		justify-content: space-around; 
+  }
+}
+
+.pricing__item {
+  flex-basis: 335px;
+  cursor: pointer;
+
+  padding: 40px;
+  background: $white;
+  border: 1px solid #dedede;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+    .pricing__title,
+    .pricing__description,
+    .pricing__amount,
+    .pricing__currency,
+    .pricing__data {
+      color: $white;
+    }
+
+    .pricing__button {
+      background-color: $white;
+      color: $accent;
+    }
+  }
+}
+
+.pricing__price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}

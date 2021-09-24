@@ -1,0 +1,55 @@
+.connect {
+	display: flex;
+	flex-direction: column;
+}
+
+.connect__row {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: $white;
+
+  a {
+	  color: inherit;
+  }
+}
+
+.connect__icon {
+  fill: $accent;
+  margin-right: 20px;
+}
+
+.connect__icon_location {
+	flex-basis: 26px;
+	height: 32px;
+}
+
+.connect__icon_phone {
+	width: 21px;
+	height: 32px;
+}
+
+.connect__icon_mail {
+	width: 27px;
+	height: 21px;
+	margin-right: 16px;
+}
+
+.connect__social {
+	margin-top: 50px;
+	display: flex;
+}
+
+.connect__social-icon {
+	width: 40px;
+	height: 40px;
+	fill: $accent;
+	margin-right: 24px;
+	&:last-child {
+		margin-right: 0;
+	}
+}

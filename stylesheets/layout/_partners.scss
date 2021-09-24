@@ -1,0 +1,89 @@
+.partners {
+	padding: 130px 0 80px;
+
+	@media (max-width:$md4+px){
+		 padding: 100px 0 50px; 
+	}
+}
+
+.partners__container {
+	text-align: center;
+}
+
+.partners__sec-header {
+	margin-bottom: 17px;
+}
+
+.partners__description {
+	margin-bottom: 80px;
+}
+
+// TEXT
+// ------------------------------------------------------------------
+
+.partners__title {
+	margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: $text-black;
+}
+
+.partners__svg {
+	margin-bottom: 15px;
+}
+
+.partners__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: $text-black;
+  letter-spacing: 0.2px;
+}
+
+// BUTTON
+// ------------------------------------------------------------------
+
+.partners__button {
+  color: $white;
+  background-color: $secondary;
+  border: 1px solid transparent;
+
+  &:hover {
+    color: $secondary;
+    background-color: $white;
+    border: 1px solid $secondary;
+  }
+}
+
+// BOX
+// ------------------------------------------------------------------
+
+.partners__box {
+	margin-bottom: 90px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 80px 63px;
+
+	@media (max-width:$md3+px){
+		 justify-content: center; 
+	}
+
+	@media (max-width:$md4+px){
+		 gap: 40px; 
+	}
+}
+
+.partners__item {
+	flex-basis: 235px;
+
+	text-align: center;
+
+	&--mob {
+		@media (max-width:$md4+px){
+			display: none;
+		}
+	}
+}

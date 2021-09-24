@@ -11,6 +11,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
+  background-color: #9631ad6b;
 }
 .header__fluid {
   max-width: 1350px;
@@ -33,7 +34,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  
   @media (max-width:$md3+px){
      justify-content: center; 
   }

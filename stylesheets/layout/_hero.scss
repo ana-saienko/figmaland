@@ -109,5 +109,19 @@
     bottom: -210%;
     left: 50%;
     transform: translateX(-50%);
+    width: 236px;
+
+    color: $white;
+    background-color: $secondary;
+    font-size: 22px;
+    height: 65px;
+    padding: 16px 58px;
+    line-height: 33px;
+    font-weight: 700;
+
+    &:hover {
+      color: $secondary;
+      background-color: $secondary;
+    }
   }
 }
