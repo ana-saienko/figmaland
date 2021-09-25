@@ -1,11 +1,11 @@
 .connect {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-	@media (max-width:$md2+px){
-		flex-direction: column-reverse;
-		// align-items: center; 
-	}
+  @media (max-width: $md2+px) {
+    flex-direction: column-reverse;
+    // align-items: center;
+  }
 }
 
 .connect__row {
@@ -19,18 +19,18 @@
   color: $white;
 
   a {
-	  color: inherit;
+    color: inherit;
   }
 
-  @media (max-width:$md2+px){
-	  max-width: 264px;
-		align-items: flex-start;
+  @media (max-width: $md2+px) {
+    max-width: 264px;
+    align-items: flex-start;
   }
 }
 
 .footer__connect .connect__row {
-	color: $text-black;
-	text-align: left;
+  color: $text-black;
+  text-align: left;
 }
 
 .connect__icon {
@@ -39,46 +39,48 @@
 }
 
 .connect__icon_location {
-	flex-basis: 26px;
-	height: 32px;
+  flex-basis: 26px;
+  height: 32px;
 }
 
 .connect__icon_phone {
-	width: 21px;
-	height: 32px;
+  width: 21px;
+  height: 32px;
 }
 
 .connect__icon_mail {
-	width: 27px;
-	height: 21px;
-	margin-right: 16px;
+  width: 27px;
+  height: 21px;
+  margin-right: 16px;
 }
 
 .connect__social {
-	margin-top: 50px;
-	display: flex;
+  margin-top: 50px;
+  display: flex;
+  a {
+    margin-right: 24px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 
-	@media (max-width:$md2+px){
-		 margin-top: 0;
-		 margin-bottom: 65px; 
-		 align-self: center;
-	}
+  @media (max-width: $md2+px) {
+    margin-top: 0;
+    margin-bottom: 65px;
+    align-self: center;
+  }
 }
 
 .footer__connect .connect__social {
-	@media (max-width:$md2+px){
-		text-align: left;
-		margin-bottom: 0;
-		margin-top: 50px;
-	}
+  @media (max-width: $md2+px) {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
 }
 
 .connect__social-icon {
-	width: 40px;
-	height: 40px;
-	fill: $accent;
-	margin-right: 24px;
-	&:last-child {
-		margin-right: 0;
-	}
+  width: 40px;
+  height: 40px;
+  fill: $accent;
 }
