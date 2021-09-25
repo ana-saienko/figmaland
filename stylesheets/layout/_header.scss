@@ -6,12 +6,12 @@
 // -----------------------------------------------------------------------------
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: #9631ad6b;
+  // background-color: #9631ad6b;
 }
 .header__fluid {
   max-width: 1350px;

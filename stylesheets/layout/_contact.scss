@@ -1,6 +1,10 @@
 .contact {
 	padding: 95px 0 85px;
 	background-color: $title-black;
+
+	@media (max-width:$md2+px){
+		padding: 160px 0 149px; 
+  }
 }
 
 // TEXT
@@ -27,6 +31,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	@media (max-width:$md2+px){
+		flex-direction: column-reverse; 
+	}
 }
 
 .contact__form {
@@ -36,4 +44,8 @@
 .contact__connect {
 	flex-basis: 265px;
 	margin-left: 65px;
+
+	@media (max-width:$md2+px){
+		 margin-left: 0; 
+	}
 }

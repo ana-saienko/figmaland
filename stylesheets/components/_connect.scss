@@ -1,6 +1,11 @@
 .connect {
 	display: flex;
 	flex-direction: column;
+
+	@media (max-width:$md2+px){
+		flex-direction: column-reverse;
+		// align-items: center; 
+	}
 }
 
 .connect__row {
@@ -16,6 +21,16 @@
   a {
 	  color: inherit;
   }
+
+  @media (max-width:$md2+px){
+	  max-width: 264px;
+		align-items: flex-start;
+  }
+}
+
+.footer__connect .connect__row {
+	color: $text-black;
+	text-align: left;
 }
 
 .connect__icon {
@@ -42,6 +57,20 @@
 .connect__social {
 	margin-top: 50px;
 	display: flex;
+
+	@media (max-width:$md2+px){
+		 margin-top: 0;
+		 margin-bottom: 65px; 
+		 align-self: center;
+	}
+}
+
+.footer__connect .connect__social {
+	@media (max-width:$md2+px){
+		text-align: left;
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
 }
 
 .connect__social-icon {

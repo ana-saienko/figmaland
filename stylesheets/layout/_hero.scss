@@ -1,5 +1,5 @@
 .hero {
-  padding: 260px 0 104px 0;
+  padding: 326px 0 104px 0;
   background-image: url(../../images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,7 +67,7 @@
 }
 
 .hero__content {
-  max-width: 312px;
+  max-width: 430px;
   position: relative;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .hero__subtitle {
-  margin-bottom: 60px;
+  margin-bottom: 75px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -98,6 +98,19 @@
 .hero__button {
   color: $secondary;
   background-color: $white;
+
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 58px;
+  height: 65px;
+  border-radius: 35px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
 
   &:hover {
     color: $white;

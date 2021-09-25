@@ -1,5 +1,5 @@
 .proto {
-  padding: 110px 0 80px;
+  padding: 110px 0 130px;
 
   @media (max-width:$md3+px){
 		display: none; 
@@ -12,16 +12,29 @@
 }
 
 .proto__sec-header {
-  margin-bottom: 17px;
+  margin-bottom: 24px;
 }
 .proto__description {
   margin-bottom: 70px;
 }
 .proto__button {
-	margin-bottom: 60px;
+	margin-bottom: 109px;
   color: $white;
   background-color: $secondary;
   border: 1px solid transparent;
+
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 58px;
+  height: 65px;
+  border-radius: 35px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
 
   &:hover {
     color: $secondary;

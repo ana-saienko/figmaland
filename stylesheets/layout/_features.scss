@@ -12,10 +12,10 @@
 	}
 }
 .features__subheader {
-  margin-bottom: 7px;
+  margin-bottom: 16px;
 }
 .features__sec-header {
-  margin-bottom: 17px;
+  margin-bottom: 28px;
 }
 .features__description {
   margin-bottom: 80px;
@@ -67,7 +67,8 @@
 
 .features__box {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 52px;
 
 	@media (max-width:$md2+px){
 		flex-wrap: wrap; 
