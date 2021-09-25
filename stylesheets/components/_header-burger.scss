@@ -1,0 +1,111 @@
+.burger {
+	display: none;
+
+	@media (max-width:$md3+px){
+		 display: block;
+		 z-index: 3; 
+	}
+
+	&.burger-active {
+		.line2 {
+			width: 27px;
+			margin: 0px 0px 4px 0px;
+		}
+		.line3 {
+			width: 27px;
+			margin: 0px 0px 4px 0px;
+		}
+	}
+}
+
+// draw the lines
+// --------------------------------------------------
+
+.line1 {
+	width: 27px;
+	height: 2px;
+	background-color: $white;
+	margin: 0px 0px 4px 0px;
+}
+
+.line2 {
+	width: 19px;
+	height: 2px;
+	background-color: $white;
+	margin: 0px 0px 4px 8px;
+	transition: all .3s ease-in-out;
+
+	&.burger-active {
+		width: 27px;
+		margin: 0px 0px 4px 0px;
+	}
+}
+
+.line3 {
+	width: 11px;
+	height: 2px;
+	background-color: $white;
+	margin: 0px 0px 4px 16px;
+
+	transition: all .3s ease-in-out;
+
+	&.burger-active {
+		width: 27px;
+		margin: 0px 0px 4px 0px;
+	}
+}
+
+// hide 
+// --------------------------------------------------
+
+
+.header__nav {
+	@media (max-width:$md3+px){
+		transform: translateY(-120%);
+		 position: absolute; 
+		 right: 0;
+		 height: 100vh;
+		 top: 0;
+		 left: 0;
+		 transition: all .3s ease-in-out;
+		 background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+		
+		 &.nav-active {
+			 transform: translateY(0%);
+		 }
+		}
+}
+
+.header__list {
+	@media (max-width:$md3+px){
+		 display: flex;
+		 flex-direction: column; 
+		 align-items: center;
+
+		 > * {
+			 padding: 15px;
+			 margin-right: 0;
+
+			 &:first-child {
+				 margin-top: 15px;
+			 }
+
+			 &:last-child {
+				 margin-right: 0;
+			 }
+		 }
+	}
+}
+
+.header__item {
+	@media (max-width:$md3+px){
+		font-size: 46px;
+		line-height: 46px; 
+	}
+}
+
+.header__subs {
+	@media (max-width:$md3+px){
+		 display: none;
+	}
+}
