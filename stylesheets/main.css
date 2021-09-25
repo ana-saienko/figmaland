@@ -85,7 +85,7 @@ html {
           box-sizing: inherit;
 }
 
-body._lock {
+body.lock {
   overflow: hidden;
 }
 
@@ -418,7 +418,7 @@ body {
 @media (max-width: 479.98px) {
   .hero__button {
     position: absolute;
-    bottom: -210%;
+    bottom: -155%;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -1004,7 +1004,7 @@ body {
 }
 
 .pricing__button {
-  padding: 18px 88px !important;
+  padding: 18px 75px !important;
   color: #fff;
   background-color: #38A3F1;
 }
