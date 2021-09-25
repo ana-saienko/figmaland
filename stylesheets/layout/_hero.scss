@@ -1,6 +1,6 @@
 .hero {
   padding: 326px 0 104px 0;
-  background-image: url(../../images/hero.png);
+  background-image: url(../images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
 
   @media (max-width: $md4+px) {
     padding-top: 202px;
-    background-image: url(../../images/mobile-bg.png);
+    background-image: url(../images/mobile-bg.png);
     background-position: left;
   }
 }
@@ -34,7 +34,7 @@
     left: -15%;
     top: -18%;
     content: "";
-    background-image: url(../../images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0px 9.86057px 19.7211px rgba(0, 0, 0, 0.16),
@@ -48,7 +48,7 @@
       background-size: cover;
     }
 
-    @media (max-width:$md3+px){
+    @media (max-width: $md3+px) {
       width: 475px;
       height: 310px;
       left: 50%;
