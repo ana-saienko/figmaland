@@ -42,6 +42,10 @@
     width: 760px;
     height: 520px;
 
+    @media (max-width:$md1+px){
+       left: -30%; 
+    }
+
     @media (max-width: $md2+px) {
       left: 0%;
       top: 75%;

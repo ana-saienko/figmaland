@@ -325,6 +325,12 @@ body {
   height: 520px;
 }
 
+@media (max-width: 1122px) {
+  .hero__image:before {
+    left: -30%;
+  }
+}
+
 @media (max-width: 991.98px) {
   .hero__image:before {
     left: 0%;
@@ -441,6 +447,18 @@ body {
   padding: 80px 0;
 }
 
+@media (max-width: 991.98px) {
+  .features {
+    padding: 250px 0 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .features {
+    padding: 200px 0 80px;
+  }
+}
+
 @media (max-width: 479.98px) {
   .features {
     padding: 23px 0 80px;
@@ -471,11 +489,7 @@ body {
   }
 }
 
-.features__icon {
-  width: 43px;
-  height: 43px;
-  background-color: #EF2779;
-  border-radius: 50%;
+.features__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,6 +501,13 @@ body {
           justify-content: center;
 }
 
+.features__icon {
+  width: 43px;
+  height: 43px;
+  background-color: #EF2779;
+  border-radius: 50%;
+}
+
 .features__svg {
   width: 18px;
   height: 16px;
@@ -494,6 +515,8 @@ body {
 }
 
 .features__title {
+  -ms-flex-preferred-size: 187px;
+      flex-basis: 187px;
   font-weight: 700;
   font-size: 22px;
   line-height: 33px;
@@ -571,6 +594,24 @@ body {
 
 .features__top {
   margin-bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  .features__top {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 .proto {
@@ -743,6 +784,8 @@ body {
 
 .partners__svg {
   margin-bottom: 30px;
+  width: 122px;
+  height: 122px;
 }
 
 .partners__text {
@@ -1601,6 +1644,42 @@ body {
   resize: none;
   width: 318px;
   height: 126px;
+}
+
+.contact-form__textarea::-webkit-input-placeholder {
+  font-family: inherit;
+  color: #18171D;
+  font-weight: 400;
+  font-size: 9.80565px;
+  line-height: 10px;
+  letter-spacing: 0.065371px;
+}
+
+.contact-form__textarea:-ms-input-placeholder {
+  font-family: inherit;
+  color: #18171D;
+  font-weight: 400;
+  font-size: 9.80565px;
+  line-height: 10px;
+  letter-spacing: 0.065371px;
+}
+
+.contact-form__textarea::-ms-input-placeholder {
+  font-family: inherit;
+  color: #18171D;
+  font-weight: 400;
+  font-size: 9.80565px;
+  line-height: 10px;
+  letter-spacing: 0.065371px;
+}
+
+.contact-form__textarea::placeholder {
+  font-family: inherit;
+  color: #18171D;
+  font-weight: 400;
+  font-size: 9.80565px;
+  line-height: 10px;
+  letter-spacing: 0.065371px;
 }
 
 @media (max-width: 479.98px) {

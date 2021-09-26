@@ -73,6 +73,15 @@
   width: 318px;
   height: 126px;
 
+  &::placeholder {
+    font-family: inherit;
+    color: $bg-text;
+    font-weight: 400;
+    font-size: 9.80565px;
+    line-height: 10px;
+    letter-spacing: 0.065371px;
+  }
+
   @media (max-width: $md4+px) {
     width: 220px;
   }
